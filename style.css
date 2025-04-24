@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #9db7ff;
+    color: #333;
+    margin: 20px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+
+/* h1 com fonte Lora em itálico */
+h1 {
+    background-color: #cce5ff;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 2.5em;
+    text-align: center;  
+}
+
+/* h2 em negrito e oblíquo */
+h2 {
+    background-color: #cce5ff;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-style: oblique;
+    font-size: 1.8em;
+}
+
+figure {
+    text-align: center;     
+    margin: 20px 0;          
+  }
+  
+/* Seletor de ID */
+#contato ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Seletor de classe para destacar o resumo */
+.destaque {
+    background-color: #728fce;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+/* Seletor de atributo para links */
+a[href] {
+    text-decoration: underline;
+    color: #007bff;
+    font-weight: normal;
+}
+
+/* Pseudo-classe para hover nos links */
+a[href]:hover {
+    color: #000c1a;
+    text-decoration: underline;
+}
+
+/* Seletor de classe para lista de habilidades */
+.lista-habilidades {
+    display: grid;
+    gap: 10px;
+}
+
+/* Seletor de classe para hobbies */
+.hobbies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+}
